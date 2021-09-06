@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+  scroll-padding-top: 6.5rem;
+}
+.header-1 {
+  font-size: 25px;
+  background-color: #eee;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 40%;
+}
+.header-1 .logo {
+  color: rgb(50, 40, 180);
+}
+.logo i {
+  padding-right: 0.5rem;
+}
+.header-2 {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.header-2 .active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+}
+
+.header-2 .navbar a {
+  padding: 0.5rem 1.5rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  color: black;
+}
+.header-2 .navbar a:hover {
+  text-decoration: underline;
+  color: rgb(82, 206, 175);
+}
+.header-2 .icons a {
+  font-size: 2.5rem;
+  color: black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.header-2 .icons a:hover {
+  color: rgb(82, 206, 175);
+}
+img {
+  height: 10%;
+  position: relative;
+}
+.contact {
+  position: absolute;
+  top: 400px;
+  right: 250px;
+}
+.contact .heading {
+  font-size: 50px;
+}
+.contact .email {
+  font-size: 30px;
+}

@@ -1,0 +1,974 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+
+.header-2 {
+  position: fixed;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 9%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.header-2 .active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+}
+.category {
+  font-size: 30px;
+}
+.category:hover {
+  color: white;
+  background-color: black;
+  border: black;
+  border-radius: 0.5rem;
+}
+
+.home {
+  color: black;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+.home:hover {
+  color: white;
+  background-color: black;
+  border: black;
+  border-radius: 0.5rem;
+}
+button {
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  border: black;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.girls:hover {
+  color: rgb(82, 206, 175);
+}
+
+.boys:hover {
+  color: rgb(82, 206, 175);
+}
+
+.toys:hover {
+  color: rgb(82, 206, 175);
+}
+
+.header-2 .icons a {
+  font-size: 2.5rem;
+  color: var(--black);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.header-2 .icons a:hover {
+  color: rgb(82, 206, 175);
+}
+.heading {
+  font-size: 40px;
+  text-align: center;
+  padding: 1.5rem;
+}
+.girlscategory img {
+  height: 5%;
+  width: 34%;
+  position: relative;
+}
+.girlscategory .btn {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 0.5rem;
+  margin: 0.5;
+  border: black;
+  border-radius: 1rem;
+}
+.girlscategory h1 {
+  font-size: 2rem;
+  text-shadow: rgb(83, 82, 82);
+  text-decoration: underline;
+}
+
+.boyscategory img {
+  width: 63%;
+}
+.boyscategory h1 {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+.boyscategory .btn {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 0.5rem;
+  margin: 0.5;
+  border: black;
+  border-radius: 1rem;
+}
+.toyscategory img {
+  width: 60%;
+  height: 60%;
+}
+.toyscategory .btn {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 0.5rem;
+  margin: 0.5;
+  border: black;
+  border-radius: 1rem;
+}
+.toyscategory h1 {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
+h1 {
+  text-decoration: none;
+}
+.gone {
+  text-decoration: none;
+  justify-content: space-between;
+}
+.gone img {
+  position: relative;
+  width: 30%;
+  height: 50%;
+  padding: 2rem;
+}
+.gone .heart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 53rem;
+  left: 24.2rem;
+}
+.gone .price {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 80rem;
+  left: 3rem;
+}
+.gone .cart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 57rem;
+  left: 24rem;
+}
+
+.gtwo {
+  text-decoration: none;
+  justify-content: space-between;
+}
+.gtwo img {
+  position: absolute;
+  top: 51rem;
+  left: 50rem;
+  width: 30%;
+  height: 54%;
+  padding: 2rem;
+}
+.gtwo .heart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 53rem;
+  left: 73.2rem;
+}
+.gtwo .price {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 80rem;
+  left: 53.5rem;
+}
+.gtwo .cart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 57rem;
+  left: 73rem;
+}
+
+.g3 {
+  text-decoration: none;
+  justify-content: space-between;
+}
+.g3 img {
+  position: relative;
+  width: 30%;
+  height: 50%;
+  padding: 2rem;
+}
+.g3 .heart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 87rem;
+  left: 24.2rem;
+}
+.g3 .price {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 116.5rem;
+  left: 3rem;
+}
+.g3 .cart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 91rem;
+  left: 24rem;
+}
+
+.g4 {
+  text-decoration: none;
+  justify-content: space-between;
+}
+.g4 img {
+  position: absolute;
+  top: 85.5rem;
+  left: 50rem;
+  width: 30%;
+  height: 58%;
+  padding: 2rem;
+}
+.g4 .heart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 87rem;
+  left: 73.2rem;
+}
+.g4 .price {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 116.5rem;
+  left: 53.5rem;
+}
+.g4 .cart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 91rem;
+  left: 73rem;
+}
+
+.g5 {
+  text-decoration: none;
+  justify-content: space-between;
+}
+.g5 img {
+  position: relative;
+  width: 30%;
+  height: 170%;
+  padding: 2rem;
+}
+.g5 .heart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 123.5rem;
+  left: 24.2rem;
+}
+.g5 .price {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 150.5rem;
+  left: 3rem;
+}
+.g5 .cart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 127.4rem;
+  left: 24rem;
+}
+
+.g6 {
+  text-decoration: none;
+  justify-content: space-between;
+}
+.g6 img {
+  position: absolute;
+  top: 122rem;
+  left: 50rem;
+  width: 30%;
+  height: 55.3%;
+  padding: 2rem;
+}
+.g6 .heart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 123.5rem;
+  left: 74rem;
+}
+.g6 .price {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 151.5rem;
+  left: 53.5rem;
+}
+.g6 .cart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 127.4rem;
+  left: 73.8rem;
+}
+
+.bone {
+  text-decoration: none;
+  justify-content: space-between;
+}
+.bone img {
+  position: relative;
+  width: 30%;
+  height: 50%;
+  padding: 2rem;
+}
+.bone .heart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 53rem;
+  left: 24.2rem;
+}
+.bone .price {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 80rem;
+  left: 3rem;
+}
+.bone .cart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 57rem;
+  left: 24rem;
+}
+
+.btwo {
+  text-decoration: none;
+  justify-content: space-between;
+}
+.btwo img {
+  position: absolute;
+  top: 51rem;
+  left: 50rem;
+  width: 30%;
+  height: 54%;
+  padding: 2rem;
+}
+.btwo .heart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 53rem;
+  left: 73.2rem;
+}
+.btwo .price {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 80rem;
+  left: 53.5rem;
+}
+.btwo .cart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 57rem;
+  left: 73rem;
+}
+
+.b3 {
+  text-decoration: none;
+  justify-content: space-between;
+}
+.b3 img {
+  position: relative;
+  width: 29%;
+  height: 30%;
+  padding: 2rem;
+}
+.b3 .heart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 86rem;
+  left: 24.2rem;
+}
+.b3 .price {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 120rem;
+  left: 3rem;
+}
+.b3 .cart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 90rem;
+  left: 24rem;
+}
+
+.b4 {
+  text-decoration: none;
+  justify-content: space-between;
+}
+.b4 img {
+  position: absolute;
+  top: 85.5rem;
+  left: 50rem;
+  width: 30%;
+  height: 58%;
+  padding: 2rem;
+}
+.b4 .heart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 87rem;
+  left: 73.2rem;
+}
+.b4 .price {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 116.5rem;
+  left: 53.5rem;
+}
+.b4 .cart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 91rem;
+  left: 73rem;
+}
+
+.b5 {
+  text-decoration: none;
+  justify-content: space-between;
+}
+.b5 img {
+  position: relative;
+  width: 30%;
+  height: 170%;
+  padding: 2rem;
+}
+.b5 .heart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 127.4rem;
+  left: 24.2rem;
+}
+.b5 .price {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 154rem;
+  left: 3rem;
+}
+.b5 .cart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 131.4rem;
+  left: 24rem;
+}
+
+.b6 {
+  text-decoration: none;
+  justify-content: space-between;
+}
+.b6 img {
+  position: absolute;
+  top: 125rem;
+  left: 50rem;
+  width: 30%;
+  height: 55.3%;
+  padding: 2rem;
+}
+.b6 .heart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 127.4rem;
+  left: 74rem;
+}
+.b6 .price {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 154.7rem;
+  left: 53.5rem;
+}
+.b6 .cart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 131.4rem;
+  left: 73.8rem;
+}
+
+.tone {
+  text-decoration: none;
+  justify-content: space-between;
+}
+.tone img {
+  position: relative;
+  width: 30%;
+  height: 50%;
+  padding: 2rem;
+}
+.tone .heart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 53rem;
+  left: 27.2rem;
+}
+.tone .price {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 80rem;
+  left: 3rem;
+}
+.tone .cart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 57rem;
+  left: 27.2rem;
+}
+
+.ttwo {
+  text-decoration: none;
+  justify-content: space-between;
+}
+.ttwo img {
+  position: absolute;
+  top: 51rem;
+  left: 50rem;
+  width: 30%;
+  height: 54%;
+  padding: 2rem;
+}
+.ttwo .heart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 53rem;
+  left: 73.2rem;
+}
+.ttwo .price {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 80rem;
+  left: 53.5rem;
+}
+.ttwo .cart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 57rem;
+  left: 73rem;
+}
+
+.t3 {
+  text-decoration: none;
+  justify-content: space-between;
+}
+.t3 img {
+  position: relative;
+  width: 30%;
+  height: 50%;
+  padding: 2rem;
+}
+.t3 .heart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 87rem;
+  left: 27.2rem;
+}
+.t3 .price {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 116.5rem;
+  left: 3rem;
+}
+.t3 .cart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 91rem;
+  left: 27.2rem;
+}
+
+.t4 {
+  text-decoration: none;
+  justify-content: space-between;
+}
+.t4 img {
+  position: absolute;
+  top: 85.5rem;
+  left: 50rem;
+  width: 30%;
+  height: 58%;
+  padding: 2rem;
+}
+.t4 .heart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 87rem;
+  left: 73.2rem;
+}
+.t4 .price {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 116.5rem;
+  left: 53.5rem;
+}
+.t4 .cart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 91rem;
+  left: 73rem;
+}
+
+.t5 {
+  text-decoration: none;
+  justify-content: space-between;
+}
+.t5 img {
+  position: relative;
+  width: 30%;
+  height: 170%;
+  padding: 2rem;
+}
+.t5 .heart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 123.5rem;
+  left: 27.2rem;
+}
+.t5 .price {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 150.5rem;
+  left: 3rem;
+}
+.t5 .cart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 127.4rem;
+  left: 27.2rem;
+}
+
+.t6 {
+  text-decoration: none;
+  justify-content: space-between;
+}
+.t6 img {
+  position: absolute;
+  top: 122rem;
+  left: 50rem;
+  width: 30%;
+  height: 55.3%;
+  padding: 2rem;
+}
+.t6 .heart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 123.5rem;
+  left: 74rem;
+}
+.t6 .price {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 151.5rem;
+  left: 53.5rem;
+}
+.t6 .cart {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border: black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 127.4rem;
+  left: 73.8rem;
+}
